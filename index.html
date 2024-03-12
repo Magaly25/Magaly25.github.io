@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Magic Design</title>
+</head>
+
+<body>
+    <header>
+        <h1>  </h1>
+        <div class="logo-container">
+            <img src="./imagenes/Logo MD.png" alt="Logo de MD">
+        </div>
+        
+
+        <nav>
+            <ul>
+                <h1> MD </h1>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<img src="./imagenes/presentacion 1.png" alt="presentacion 1" style="width: 60%; height: auto; display: block; margin: auto;">
+    <div class="presentacion">
+    
+        <h1> ¿Quiénes somos? </h1>
+        <p> "Nuestro lema es transformar ideas en magia. Somos un grupo de tres amigas apasionadas por la edición, dedicadas a convertir tus conceptos en experiencias visuales fascinantes. Nos impulsa la creatividad y el deseo de hacer que cada proyecto sea único y encantador." </p> 
+        <p> ¡Bienvenido a nuestro mundo donde la magia de la edición cobra vida! </p>
+    </div>
+
+    <section id="video-section">
+        <video id="banner-video" autoplay muted loop>
+        <source src="./videos/video debajo presentacion.mp4" type="video/mp4">
+    </video>
+    </section>
+    
+    <div>
+        <h2>Conoces el proceso? Es muy sencillo</h2>
+        <ul>
+            <li>Iniciamos con:</li>
+            <img src="./imagenes/Invitación 1.png" alt="Ejemplo 1" style="width: 70%; height: auto; display: block; margin: auto;">
+            <li>Quieres conocer nuestro trabajo?</li>
+            <img src="./imagenes/Invitación 2.png" alt="Ejemplo 2" style="width: 70%; height: auto; display: block; margin: auto;">
+            <li>Tranquilo! para nosotros es importante:</li>
+            <img src="./imagenes/Invitacion 3.png" alt="Ejemplo 3" style="width: 70%; height: auto; display: block; margin: auto;">
+        </ul>
+    </div>
+
+    <div>
+        <h2>¿Quieres realizar una previa cotización?</h2>
+        <p>Consulta nuestra <a href="#">muestra de invitación</a> para obtener una vista previa.</p>
+    </div>
+
+    <div class="image-container">
+        <div class="example-image">
+            <img src="./imagenes/ejemplo1.png" alt="Ejemplo 1">
+            <p>Celebra tres décadas de amor, como este ejemplo de invitación de aniversario de 30 años.</p>
+        </div>
+        <div class="example-image">
+            <img src="./imagenes/ejemplo2.png" alt="Ejemplo 2">
+            <p>¡Es hora de celebrar en grande! Nuestra invitación de cumpleaños con un estilo creativo y retro.</p>
+        </div>
+        <div class="example-image">
+            <img src="./imagenes/ejemplo3.png" alt="Ejemplo 3">
+            <p>Un claro ejemplo de una invitación de cumpleaños con un estilo elegante.</p>
+        </div>
+    </div>
+
+    <section>
+        <h2>Completa el formulario para recibir una cotización</h2>
+        <form action="procesar_formulario.php" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div>
+                <label for="evento">Tipo de evento:</label>
+                <input type="text" id="evento" name="evento" required>
+            </div>
+
+            <div>
+                <label for="fecha">Fecha del evento:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+
+            <button type="submit">Obtener Cotización</button>
+        </form>
+    </section>
+
+    <div class="social-logo-container">
+        <div class="social-logo">
+            <img src="./imagenes/facebook-logo.png" alt="Facebook">
+        </div>
+        <div class="social-logo">
+            <img src="./imagenes/x-logo.png" alt="X">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Magic Design x Magaly Gonzalez  |   All Rights Reserved | Company registered in Narnia</p>
+    </footer>
+
+</body>
+
+</html>
